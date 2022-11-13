@@ -20,6 +20,7 @@ class DetailsScreen extends StatelessWidget {
 
   AppBar buildAppBar(BuildContext context) {
     return AppBar(
+      title: Text("SHOPSHOP",style: TextStyle(color: Colors.black),),
       backgroundColor: Colors.orange,
       elevation: 0,
       leading: IconButton(
